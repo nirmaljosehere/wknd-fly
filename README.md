@@ -1,9 +1,9 @@
 # Your Project's Title...
-Your project's description...
+Wknd Fly is a demo brand for Adobe
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: [https://main--wknd-fly--nirmaljosehere.hlx.page/](https://main--wknd-fly--nirmaljosehere.hlx.page/)
+- Live: [https://main--wknd-fly--nirmaljosehere.hlx.live/](https://main--wknd-fly--nirmaljosehere.hlx.live/)
 
 ## Installation
 
