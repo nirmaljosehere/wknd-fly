@@ -187,12 +187,14 @@
     ]
   },
   {
-    "id": "fragment",
+    "id": "content-fragment",
     "fields": [
       {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
+        "component": "text-input",
+        "name": "text",
+        "value": "",
+        "label": "Slug",
+        "valueType": "string"
       }
     ]
   }
