@@ -1,14 +1,22 @@
 footer {
-  padding: 2rem;
+  /*padding: 2rem;*/
   background-color: var(--light-color);
   font-size: var(--body-font-size-s);
 }
 
 footer .footer {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: auto;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer .section > div {
+  width:100%;
+}
+
+footer .footer img {
+  width: 100%;
 }
