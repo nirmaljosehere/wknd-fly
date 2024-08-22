@@ -157,6 +157,13 @@
         "value": "",
         "label": "Style",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "alignment",
+        "value": "",
+        "label": "Alignment",
+        "valueType": "string"
       }
     ]
   },
