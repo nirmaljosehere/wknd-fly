@@ -519,13 +519,14 @@ function decorateSections(main) {
     if (sectionMeta) {
       const meta = readBlockConfig(sectionMeta);
       Object.keys(meta).forEach((key) => {
-        if (key === 'style' || key === 'alignment') {
-          const styles = meta.style
-            .split(',')
-            .filter((style) => style)
-            .map((style) => toClassName(style.trim()));
+        if (key === 'style') {
+          const styles = meta.style.split(',')?.filter((style) => style)?.map((style) => toClassName(style.trim()));
           styles.forEach((style) => section.classList.add(style));
-        } else {
+        } else if (key === 'alignment'){
+          const alignment = meta.alignment.split(',')?.filter((style) => style)?.map((style) => toClassName(style.trim()));
+          alignment.forEach((style) => section.classList.add(style));
+        }
+        else {
           section.dataset[toCamelCase(key)] = meta[key];
         }
       });
